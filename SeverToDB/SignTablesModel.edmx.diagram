@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="848f73547af64bed8b889e729e2c7388" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.PICTUREINFO" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.USERINFO" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.LEAVEWORDINFO" Width="1.5" PointX="0.5" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SIGNINFO" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.MANAGERS" Width="1.5" PointX="4.875" PointY="1.375" />
+        <AssociationConnector Association="Model.FK_USERINFO_LEAVEMSG" />
+        <AssociationConnector Association="Model.FK_USERINFO_SIGNINFO" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
